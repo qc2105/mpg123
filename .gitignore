@@ -1,1 +1,83 @@
-mpg123-1.25.10.pro
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Qt project file
+*.pro
+*.log
+*.pc
+*.status
+Makefile
+libtool
+src/.deps/
+src/.dirstamp
+src/.libs/
+src/compat/.deps/
+src/compat/.dirstamp
+src/config.h
+src/libmpg123/.deps/
+src/libmpg123/.dirstamp
+src/libmpg123/.libs/
+src/libmpg123/mpg123.h
+src/libout123/.deps/
+src/libout123/.dirstamp
+src/libout123/.libs/
+src/libout123/modules/.deps/
+src/libout123/modules/.dirstamp
+src/libout123/modules/.libs/
+src/libout123/out123.h
+src/mpg123
+src/mpg123-id3dump
+src/mpg123-strip
+src/out123
+src/stamp-h1
+src/tests/.deps/
